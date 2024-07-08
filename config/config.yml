@@ -1,0 +1,15 @@
+env: "local"
+
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: 1977
+  name: auth_base
+
+grpc:
+  port: 8080
+  timeout: 5s
+
+jwt:
+  key: "fdjsaklhfk3jhjkHFDHKPHJK2fhjdsla"
